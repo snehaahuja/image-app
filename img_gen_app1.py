@@ -15,7 +15,7 @@ from io import BytesIO
 from google import generativeai as genai
 
 # Set your Gemini API key
-genai.configure(api_key="AIzaSyA4z7iPttLbODDJn7-SdT5-KXxljF_O6Ng")
+genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 # Load the fixed Saffola packet image
 with open("saffola_packet.png", "rb") as f:
