@@ -33,13 +33,6 @@ div.stButton > button:hover {
     background-color: #e6b800;   /* Slightly darker yellow */
 }
 
-/* === Text Input Focus Styling === */
-input:focus {
-    outline: none !important;
-    box-shadow: none !important;
-    border: 1px solid #ccc !important;  /* Light gray border */
-}
-
 /* === Optional: Light gray placeholder text === */
 input::placeholder {
     color: #aaa;
